@@ -6,7 +6,7 @@ const workingFile = require('./utils/calcFirmPower')
 
 const app = express()
 const publicPath = path.join(__dirname, '../public')
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 8000
 
 app.use(express.static(publicPath))
 app.use(upload())
@@ -20,7 +20,6 @@ app.post('/fileUpload', (req, res)=>{
    
   }
   res.json({what: data})
-  
   
 })
 

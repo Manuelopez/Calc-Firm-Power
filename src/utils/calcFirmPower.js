@@ -50,8 +50,14 @@ function workingFile(conf, dem, file){
   
 }
 function calcFinalFirmPower(){
+  let InitialArr = initialFirmPower.map((x)=>{
+    if(x<0){
+      return 0
+    }
+    return x
+  })
   if(demand > toltalSystemPower){
-    let prop = demand/toltalSystemPower
+    let prop = demand/InitialArr.reduce((acc, curr)=> acc +curr)
     for(let x in initialFirmPower){
       if(initialFirmPower[x] < 0){
         finalFirmPower.push(0)
@@ -63,29 +69,29 @@ function calcFinalFirmPower(){
       finalFirmPower.push(initialFirmPower[x]*prop)
       }
     }
-    let FinalResidue = finalFirmPower.reduce((acc,curr)=> acc+curr) - demand
-    if(FinalResidue < 0){
-      FinalResidue *= -1
-      let res = 0
-      for(let x in finalFirmPower){
-        if(finalFirmPower[x] != 0){
-          res = genPowernNames - finalFirmPower[x]
-          if(res > FinalResidue){
-            finalFirmPower[x] += FinalResidue
-            FinalResidue = 0
-          }
-          else{
-          finalFirmPower[x] = genPowernNames[x][1]
-          FinalResidue -= res
-          }
-          if(FinalResidue = 0){
-            break
-          }
-          
+
+  }
+  let FinalResidue = demand - finalFirmPower.reduce((acc,curr)=> acc+curr)
+  let extra
+  if(FinalResidue > 0){
+    for(let x in finalFirmPower){
+      if(finalFirmPower[x] >0){
+        extra = genPowernNames[x][1] - finalFirmPower[x]
+        if(extra >= FinalResidue){
+          finalFirmPower[x] += FinalResidue
+          FinalResidue = 0
+        }
+        else{
+          finalFirmPower[x] += extra
+          FinalResidue -= extra
+        }
+        if(FinalResidue == 0){
+          break
         }
       }
     }
   }
+
 }
 
 function calcInitialFirmPower(){

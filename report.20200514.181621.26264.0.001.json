@@ -1,0 +1,598 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200514.181621.26264.0.001.json",
+    "dumpEventTime": "2020-05-14T18:16:21Z",
+    "dumpEventTimeStamp": "1589494581148",
+    "processId": 26264,
+    "threadId": null,
+    "cwd": "/home/manuelopez/Desktop/automate/programaParaPapi/Generators-Firm-Power-Calc",
+    "commandLine": [
+      "node",
+      "src/index.js"
+    ],
+    "nodejsVersion": "v12.16.3",
+    "glibcVersionRuntime": "2.27",
+    "glibcVersionCompiler": "2.17",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "12.16.3",
+      "v8": "7.8.279.23-node.35",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.16.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1g",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "5.3.0-51-generic",
+    "osVersion": "#44~18.04.2-Ubuntu SMP Thu Apr 23 14:27:18 UTC 2020",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-4720HQ CPU @ 2.60GHz",
+        "speed": 3134,
+        "user": 277010200,
+        "nice": 408700,
+        "sys": 67448500,
+        "idle": 4899686600,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4720HQ CPU @ 2.60GHz",
+        "speed": 3122,
+        "user": 284551100,
+        "nice": 380000,
+        "sys": 68682000,
+        "idle": 5255500,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4720HQ CPU @ 2.60GHz",
+        "speed": 3015,
+        "user": 282593900,
+        "nice": 395800,
+        "sys": 66973000,
+        "idle": 5206600,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4720HQ CPU @ 2.60GHz",
+        "speed": 3029,
+        "user": 288491400,
+        "nice": 410300,
+        "sys": 66910000,
+        "idle": 5188700,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4720HQ CPU @ 2.60GHz",
+        "speed": 3401,
+        "user": 280088200,
+        "nice": 336200,
+        "sys": 74678500,
+        "idle": 5289500,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4720HQ CPU @ 2.60GHz",
+        "speed": 2978,
+        "user": 279818000,
+        "nice": 398300,
+        "sys": 72181400,
+        "idle": 5257700,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4720HQ CPU @ 2.60GHz",
+        "speed": 3142,
+        "user": 258571200,
+        "nice": 372000,
+        "sys": 93894000,
+        "idle": 5273500,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4720HQ CPU @ 2.60GHz",
+        "speed": 3047,
+        "user": 271303500,
+        "nice": 337800,
+        "sys": 66522800,
+        "idle": 5312000,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "wlp4s0",
+        "internal": false,
+        "mac": "40:e2:30:4b:19:3d",
+        "address": "10.0.0.16",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlp4s0",
+        "internal": false,
+        "mac": "40:e2:30:4b:19:3d",
+        "address": "fe80::4209:aef8:8fb3:201b",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 3
+      }
+    ],
+    "host": "manuelopez-G551JW"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000000b46955",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::string const&, v8::Local<v8::String>) [node]"
+    },
+    {
+      "pc": "0x0000000000a09c8f",
+      "symbol": "node::OnFatalError(char const*, char const*) [node]"
+    },
+    {
+      "pc": "0x0000000000b7d71e",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]"
+    },
+    {
+      "pc": "0x0000000000b7da99",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]"
+    },
+    {
+      "pc": "0x0000000000d2a1f5",
+      "symbol": " [node]"
+    },
+    {
+      "pc": "0x0000000000d2a886",
+      "symbol": "v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [node]"
+    },
+    {
+      "pc": "0x0000000000d37105",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [node]"
+    },
+    {
+      "pc": "0x0000000000d37fb5",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]"
+    },
+    {
+      "pc": "0x0000000000d3aa6c",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFail(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [node]"
+    },
+    {
+      "pc": "0x0000000000d00429",
+      "symbol": " [node]"
+    },
+    {
+      "pc": "0x0000000000d02880",
+      "symbol": "v8::internal::Factory::NewFixedDoubleArray(int, v8::internal::AllocationType) [node]"
+    },
+    {
+      "pc": "0x0000000000e662e0",
+      "symbol": " [node]"
+    },
+    {
+      "pc": "0x0000000000e701f0",
+      "symbol": " [node]"
+    },
+    {
+      "pc": "0x000000000101985b",
+      "symbol": "v8::internal::Runtime_GrowArrayElements(int, unsigned long*, v8::internal::Isolate*) [node]"
+    },
+    {
+      "pc": "0x00000000013c5b79",
+      "symbol": " [node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2187800576,
+    "totalCommittedMemory": 2160604736,
+    "usedMemory": 2150197904,
+    "availableMemory": 43622872,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 33088,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 6795408,
+        "capacity": 16759296,
+        "used": 0,
+        "available": 16759296
+      },
+      "old_space": {
+        "memorySize": 890642432,
+        "committedMemory": 890526120,
+        "capacity": 889636288,
+        "used": 889546728,
+        "available": 89560
+      },
+      "code_space": {
+        "memorySize": 430080,
+        "committedMemory": 342336,
+        "capacity": 325952,
+        "used": 325952,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 528384,
+        "committedMemory": 524680,
+        "capacity": 399760,
+        "used": 399760,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 1262333952,
+        "committedMemory": 1262333952,
+        "capacity": 1259889872,
+        "used": 1259889872,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 16759296,
+        "used": 0,
+        "available": 16759296
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 183.702,
+    "kernelCpuSeconds": 18.4606,
+    "cpuConsumptionPercent": 159.183,
+    "maxRss": 2251550720,
+    "pageFaults": {
+      "IORequired": 20,
+      "IONotRequired": 11581547
+    },
+    "fsActivity": {
+      "reads": 2512,
+      "writes": 0
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 64.0026,
+    "kernelCpuSeconds": 11.8399,
+    "cpuConsumptionPercent": 59.7184,
+    "fsActivity": {
+      "reads": 2512,
+      "writes": 16
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "LESSOPEN": "| /usr/bin/lesspipe %s",
+    "npm_config_cache_lock_stale": "60000",
+    "npm_config_ham_it_up": "",
+    "PERLBREW_VERSION": "0.86",
+    "npm_config_legacy_bundling": "",
+    "npm_config_sign_git_tag": "",
+    "USER": "manuelopez",
+    "LANGUAGE": "en_CA:en",
+    "npm_package_dependencies_express_fileupload": "^1.1.7-alpha.3",
+    "npm_config_user_agent": "npm/6.14.4 node/v12.16.3 linux x64",
+    "npm_config_always_auth": "",
+    "TEXTDOMAIN": "im-config",
+    "XDG_SEAT": "seat0",
+    "npm_config_bin_links": "true",
+    "npm_config_key": "",
+    "SSH_AGENT_PID": "2254",
+    "XDG_SESSION_TYPE": "x11",
+    "GIT_ASKPASS": "/usr/share/code/resources/app/extensions/git/dist/askpass.sh",
+    "npm_package_devDependencies_nodemon": "^2.0.3",
+    "npm_config_allow_same_version": "",
+    "npm_config_description": "true",
+    "npm_config_fetch_retries": "2",
+    "npm_config_heading": "npm",
+    "npm_config_if_present": "",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_user": "",
+    "npm_node_execpath": "/usr/bin/node",
+    "SHLVL": "3",
+    "npm_config_prefer_online": "",
+    "npm_config_noproxy": "",
+    "CHROME_DESKTOP": "code-url-handler.desktop",
+    "QT4_IM_MODULE": "xim",
+    "HOME": "/home/manuelopez",
+    "npm_config_force": "",
+    "DESKTOP_SESSION": "ubuntu",
+    "TERM_PROGRAM_VERSION": "1.45.0",
+    "npm_config_only": "",
+    "npm_config_read_only": "",
+    "npm_config_cache_min": "10",
+    "npm_config_init_license": "ISC",
+    "GNOME_SHELL_SESSION_MODE": "ubuntu",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true",
+    "GTK_MODULES": "gail:atk-bridge",
+    "VSCODE_GIT_ASKPASS_MAIN": "/usr/share/code/resources/app/extensions/git/dist/askpass-main.js",
+    "PERLBREW_ROOT": "/home/manuelopez/perl5/perlbrew",
+    "npm_config_editor": "vi",
+    "npm_config_rollback": "true",
+    "npm_config_tag_version_prefix": "v",
+    "MANAGERPID": "2083",
+    "VSCODE_GIT_ASKPASS_NODE": "/usr/share/code/code",
+    "npm_config_cache_max": "Infinity",
+    "npm_config_timing": "",
+    "npm_config_userconfig": "/home/manuelopez/.npmrc",
+    "PERLBREW_MANPATH": "/home/manuelopez/perl5/perlbrew/perls/perl-5.28.0/man",
+    "DBUS_STARTER_BUS_TYPE": "session",
+    "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus,guid=489150a387c84560cad529205eb18584",
+    "npm_config_engine_strict": "",
+    "npm_config_init_author_name": "",
+    "npm_config_init_author_url": "",
+    "npm_config_preid": "",
+    "npm_config_tmp": "/tmp",
+    "COLORTERM": "truecolor",
+    "npm_package_description": "",
+    "npm_config_depth": "Infinity",
+    "npm_config_package_lock_only": "",
+    "npm_config_save_dev": "",
+    "npm_config_usage": "",
+    "npm_config_metrics_registry": "https://registry.npmjs.org/",
+    "npm_config_cafile": "",
+    "npm_config_otp": "",
+    "npm_config_package_lock": "true",
+    "npm_config_progress": "true",
+    "npm_config_https_proxy": "",
+    "npm_config_save_prod": "",
+    "MANDATORY_PATH": "/usr/share/gconf/ubuntu.mandatory.path",
+    "IM_CONFIG_PHASE": "2",
+    "npm_package_scripts_dev": "nodemon src/index.js",
+    "npm_config_audit": "true",
+    "npm_config_cidr": "",
+    "npm_config_onload_script": "",
+    "npm_config_sso_type": "oauth",
+    "LOGNAME": "manuelopez",
+    "GTK_IM_MODULE": "ibus",
+    "npm_config_rebuild_bundle": "true",
+    "npm_config_save_bundle": "",
+    "npm_config_shell": "/bin/bash",
+    "JOURNAL_STREAM": "9:44637",
+    "_": "/usr/bin/npm",
+    "npm_package_dependencies_express": "^4.17.1",
+    "npm_config_dry_run": "",
+    "npm_config_format_package_lock": "true",
+    "npm_config_prefix": "/usr",
+    "DEFAULTS_PATH": "/usr/share/gconf/ubuntu.default.path",
+    "npm_config_scope": "",
+    "npm_config_browser": "",
+    "npm_config_cache_lock_wait": "10000",
+    "npm_config_ignore_prepublish": "",
+    "npm_config_registry": "https://registry.npmjs.org/",
+    "npm_config_save_optional": "",
+    "npm_config_searchopts": "",
+    "npm_config_versions": "",
+    "USERNAME": "manuelopez",
+    "XDG_SESSION_ID": "2",
+    "TERM": "xterm-256color",
+    "npm_config_cache": "/home/manuelopez/.npm",
+    "npm_config_proxy": "",
+    "npm_config_send_metrics": "",
+    "GNOME_DESKTOP_SESSION_ID": "this-is-deprecated",
+    "npm_package_scripts_start": "node src/index.js",
+    "npm_config_global_style": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_version": "",
+    "WINDOWPATH": "2",
+    "npm_config_local_address": "",
+    "npm_config_viewer": "man",
+    "npm_config_node_gyp": "/usr/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js",
+    "PATH": "/usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/manuelopez/Desktop/automate/programaParaPapi/Generators-Firm-Power-Calc/node_modules/.bin:/home/manuelopez/perl5/perlbrew/bin:/home/manuelopez/perl5/perlbrew/perls/perl-5.28.0/bin:/home/manuelopez/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+    "INVOCATION_ID": "20acccaf27ee42619cf419ba09d45477",
+    "PERLBREW_HOME": "/home/manuelopez/.perlbrew",
+    "SESSION_MANAGER": "local/manuelopez-G551JW:@/tmp/.ICE-unix/2158,unix/manuelopez-G551JW:/tmp/.ICE-unix/2158",
+    "npm_package_name": "Generators-Firm-Power-Calc",
+    "npm_config_audit_level": "low",
+    "npm_config_prefer_offline": "",
+    "NODE": "/usr/bin/node",
+    "XDG_MENU_PREFIX": "gnome-",
+    "GNOME_TERMINAL_SCREEN": "/org/gnome/Terminal/screen/1d88a7fc_51c7_49cc_923b_2c2edd032f03",
+    "XDG_RUNTIME_DIR": "/run/user/1000",
+    "npm_config_color": "true",
+    "npm_config_sign_git_commit": "",
+    "DISPLAY": ":0",
+    "npm_package_dependencies_node_xlsx": "^0.15.0",
+    "npm_config_fetch_retry_mintimeout": "10000",
+    "npm_config_maxsockets": "50",
+    "npm_config_offline": "",
+    "npm_config_sso_poll_frequency": "500",
+    "LANG": "en_CA.UTF-8",
+    "XDG_CURRENT_DESKTOP": "Unity",
+    "npm_config_umask": "0022",
+    "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+    "PERLBREW_PATH": "/home/manuelopez/perl5/perlbrew/bin:/home/manuelopez/perl5/perlbrew/perls/perl-5.28.0/bin",
+    "TERM_PROGRAM": "vscode",
+    "XDG_SESSION_DESKTOP": "ubuntu",
+    "XMODIFIERS": "@im=ibus",
+    "GNOME_TERMINAL_SERVICE": ":1.4646",
+    "VSCODE_GIT_IPC_HANDLE": "/run/user/1000/vscode-git-28a5c0a57c.sock",
+    "XAUTHORITY": "/run/user/1000/gdm/Xauthority",
+    "npm_package_main": "index.js",
+    "npm_package_gitHead": "d9e6c6eb8fbe1a8860228ed9a9dc9aaa32d5431c",
+    "npm_config_fund": "true",
+    "npm_config_fetch_retry_maxtimeout": "60000",
+    "npm_config_loglevel": "notice",
+    "npm_config_logs_max": "10",
+    "npm_config_message": "%s",
+    "npm_lifecycle_script": "node src/index.js",
+    "SSH_AUTH_SOCK": "/run/user/1000/keyring/ssh",
+    "npm_package_scripts_test": "echo \"Error: no test specified\" && exit 1",
+    "npm_config_ca": "",
+    "npm_config_cert": "",
+    "npm_config_global": "",
+    "npm_config_link": "",
+    "SHELL": "/bin/bash",
+    "npm_package_version": "1.0.0",
+    "npm_config_access": "",
+    "npm_config_also": "",
+    "npm_config_save": "true",
+    "npm_config_unicode": "true",
+    "npm_lifecycle_event": "start",
+    "NO_AT_BRIDGE": "1",
+    "QT_ACCESSIBILITY": "1",
+    "GDMSESSION": "ubuntu",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"start\"],\"original\":[\"start\"]}",
+    "npm_config_before": "",
+    "npm_config_long": "",
+    "npm_config_production": "",
+    "npm_config_searchlimit": "20",
+    "npm_config_unsafe_perm": "true",
+    "npm_config_update_notifier": "true",
+    "LESSCLOSE": "/usr/bin/lesspipe %s %s",
+    "npm_package_author": "",
+    "npm_config_auth_type": "legacy",
+    "npm_config_node_version": "12.16.3",
+    "npm_config_tag": "latest",
+    "npm_config_git_tag_version": "true",
+    "npm_config_commit_hooks": "true",
+    "npm_config_script_shell": "",
+    "npm_config_shrinkwrap": "true",
+    "PERLBREW_PERL": "perl-5.28.0",
+    "TEXTDOMAINDIR": "/usr/share/locale/",
+    "GPG_AGENT_INFO": "/run/user/1000/gnupg/S.gpg-agent:0:1",
+    "npm_package_license": "ISC",
+    "npm_config_fetch_retry_factor": "10",
+    "npm_config_save_exact": "",
+    "npm_config_strict_ssl": "true",
+    "XDG_VTNR": "2",
+    "QT_IM_MODULE": "ibus",
+    "npm_config_dev": "",
+    "npm_config_globalconfig": "/usr/etc/npmrc",
+    "npm_config_init_module": "/home/manuelopez/.npm-init.js",
+    "npm_config_parseable": "",
+    "PWD": "/home/manuelopez/Desktop/automate/programaParaPapi/Generators-Firm-Power-Calc",
+    "npm_config_globalignorefile": "/usr/etc/npmignore",
+    "npm_execpath": "/usr/lib/node_modules/npm/bin/npm-cli.js",
+    "CLUTTER_IM_MODULE": "xim",
+    "XDG_DATA_DIRS": "/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop",
+    "DBUS_STARTER_ADDRESS": "unix:path=/run/user/1000/bus,guid=489150a387c84560cad529205eb18584",
+    "XDG_CONFIG_DIRS": "/etc/xdg/xdg-ubuntu:/etc/xdg",
+    "npm_config_cache_lock_retries": "10",
+    "npm_config_searchstaleness": "900",
+    "npm_config_node_options": "",
+    "npm_config_save_prefix": "^",
+    "npm_config_scripts_prepend_node_path": "warn-only",
+    "PERLBREW_SHELLRC_VERSION": "0.86",
+    "npm_config_group": "1000",
+    "npm_config_init_author_email": "",
+    "npm_config_searchexclude": "",
+    "VTE_VERSION": "5202",
+    "MANPATH": "/home/manuelopez/perl5/perlbrew/perls/perl-5.28.0/man:/usr/local/man:/usr/local/share/man:/usr/share/man",
+    "npm_config_git": "git",
+    "npm_config_optional": "true",
+    "npm_config_json": "",
+    "INIT_CWD": "/home/manuelopez/Desktop/automate/programaParaPapi/Generators-Firm-Power-Calc"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 16777216,
+      "hard": 16777216
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 4096,
+      "hard": 4096
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 63265,
+      "hard": 63265
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/lib/x86_64-linux-gnu/libdl.so.2",
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+    "/lib/x86_64-linux-gnu/libm.so.6",
+    "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "/lib/x86_64-linux-gnu/libpthread.so.0",
+    "/lib/x86_64-linux-gnu/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2"
+  ]
+}
