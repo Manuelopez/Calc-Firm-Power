@@ -39,7 +39,7 @@ function creteCSV(data){
   for(let x in data){
     arrCSV.push(data[x].join(','))
   }
-
+ 
   download(arrCSV.join('\n'))
 }
 
